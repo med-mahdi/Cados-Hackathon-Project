@@ -1,0 +1,282 @@
+
+
+
+.heropage-section {
+    /* Size */
+    /* border: 1px solid red; */
+    /* Position */
+    position: relative;
+    top: 255px;
+    margin: 0 auto;
+    text-align: center;
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.heropage-section h1{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 106%;
+    text-align: center;
+    color: #333333;
+}
+
+
+.heropage-section p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 117%;
+    text-align: center;
+    color: #637287;
+    /* margin */
+    margin-top: 40px;
+}
+
+
+
+.input-search-box{
+    border: 1px solid #e2e2e2;
+    background-color: #ffffff;
+    border-radius: 3px;
+    height: 73px;
+    /* Display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Position */
+    position: relative;
+    top: 30px;
+    width: 752px;
+}
+
+
+.input-search-box .container{
+    /* border: 1px solid red; */
+    height: 70%;
+    width: 97%;
+    /* Display */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.input-search-box .container .input-box-text{
+    width: 75%;
+    border: 1px solid #F2F2F2;
+    background-color: #f0f0f0;
+    border-radius: 1px;
+    /* Display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-search-box .container .input-box-text input{
+    width: 85%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 117%;
+    color: #696767;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+/***/
+
+
+
+.input-box-select span , .input-box-select select{
+    /* border: 1px solid red; */
+    margin-left: 1em;
+    font-family: 'Poppins';
+    font-style: normal;
+    border: none;
+    background: transparent; 
+    color: #828282;
+    outline: none;
+}
+
+.input-box-select span {
+    margin-left: 1.2em;
+    color: #585858;
+}
+
+.input-box-select{
+    /* border: 1px solid #626262; */
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    /* height: 73px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 35%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 12px;
+}
+
+
+button#search-btn{
+    width: 23%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F6F6F6;
+    background: #333333;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+button#search-btn img{
+    margin-right: .5em;
+}
+
+
+
+/* Media Query */
+
+@media (max-width:1050px) {
+    .heropage-section h1{
+        font-size: 55px;
+    }
+    .heropage-section p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .input-search-box {
+        width: 720px;
+    }
+}
+
+
+@media (max-width:900px) {
+    .heropage-section h1 {
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 47px;
+        line-height: 106%;
+        text-align: center;
+        color: #333333;
+    }
+    .heropage-section p {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .input-search-box {
+        width: 660px;
+        height: 80px;
+    }
+}
+
+
+
+
+
+@media (max-width:740px) {
+    .heropage-section h1 {
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 38px;
+        /* font-size: 33px; */
+        line-height: 106%;
+        text-align: center;
+        color: #333333;
+    }
+
+    .heropage-section p {
+        font-size: 13px;
+        margin-top: 30px;
+        width: 75%;
+        line-height: 19px;
+        /* border: 1px solid red; */
+    }
+
+    .input-search-box {
+        /* border: 1px solid red; */
+        width: 75%;
+        height: max-content;
+        background-color: transparent;
+        border: none;
+    }
+
+    .input-search-box .container {
+        /* border: 1px solid red; */
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .input-search-box .container .input-box-text {
+        width: 100%;
+        height: 50px;
+        border: 1px solid #F2F2F2;
+        background-color: #F2F2F2;
+        border-radius: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-bottom: 5px; */
+    }
+
+    .input-box-select {
+        /* border: 1px solid #626262; */
+        background-color: #f2f2f2;
+        border-radius: 3px;
+        height: 63px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 12px;
+        margin-top: 7px;
+    }
+
+    button#search-btn {
+        width: 100%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #F6F6F6;
+        background: #333333;
+        border: none;
+        border-radius: 3px;
+        margin-top: 7px;
+        height: 50px;
+    }
+    
+}
+
+
+
+
+@media (max-width:600px) {
+    .heropage-section h1 {
+        font-size: 30px;
+    }
+}

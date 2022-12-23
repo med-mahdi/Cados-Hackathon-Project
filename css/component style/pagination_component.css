@@ -1,0 +1,55 @@
+
+
+
+
+.pagination-section{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Position */
+    position: relative;
+    top: 77px;
+    margin-bottom: 150px;
+}
+
+
+
+.previous_page_btn , .newt_page_btn{
+    width: 173px;
+    height: 52px;
+    border-radius: 3px;
+    border: none;
+    margin: 0 19px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 85%;
+    cursor: pointer;
+}
+
+
+
+.previous_page_btn{
+    border: 1px solid #626262;
+    background-color: white;
+    color: #626262;
+}
+
+.newt_page_btn{
+    background: #333333;
+    color: #F4F4F4;
+}
+
+
+
+button:disabled{
+    opacity: 0.8;
+}
+
+
+
+
+
+

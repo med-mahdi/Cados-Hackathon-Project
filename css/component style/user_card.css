@@ -1,0 +1,114 @@
+
+
+
+
+.card_user_profile{
+    /* Size */
+    width: 226px;
+    height: 297px;
+    background: #FAFAFA;
+    border: 1px solid #8E8E8E;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 12px;
+    /* Display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+
+.card_user_profile:hover{
+    transition: .3s ease;
+    opacity: 1;
+    background: #FFFFFF;
+}
+
+
+
+
+
+.card_user_profile_container{
+    /* Size */
+    width: 80%;
+    height: 80%;
+    /* border: 1px solid; */
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.card_user_profile_container > .img_user{
+    /* Size */
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 1px solid #626262;
+    /* Display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #e2e2e2
+}
+
+
+
+
+.card_user_profile_container > .img_user > img{
+    width: 100%;
+}
+
+
+.card_user_profile_container h3{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+
+.card_user_profile_container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 134.5%;
+    text-align: center;
+    color: #777777;
+}
+
+
+.card_user_profile_container button{
+    width: 116px;
+    height: 38px;
+    border: none;
+    background-color: #333333;
+    border-radius: 3px;
+    /* Font */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #F6F6F6;
+    cursor: pointer;
+}
+
+
+
+
+
+.card_user_profile_container button.follow_btn.followed_true{
+    background-color: white;
+    border: 1px solid #333333;
+    color: #333333;
+}

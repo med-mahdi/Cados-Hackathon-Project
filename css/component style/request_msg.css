@@ -1,0 +1,38 @@
+
+
+
+
+
+section.msg-request{
+    width: 100%;
+    height: 42px;
+    background-color: #E98B1C;
+    /* Position */
+    position: fixed;
+    z-index: 2000;
+    top: 87px; 
+    /* Display */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Font Style */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 117%;
+    text-align: center;
+    color: #F6F6F6;
+    /* opacity: 0; */
+}
+
+
+
+section.msg-request.success{
+    background-color: #19D08E !important;
+}
+
+
+section.msg-request.error{
+    background-color: #E92F72 !important;
+}
